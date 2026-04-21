@@ -1,0 +1,14 @@
+{
+  "name": "Poa Delivery",
+  "short_name": "Poa",
+  "description": "Nairobi's fastest food delivery",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00C566",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" },
+    { "src": "/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml" }
+  ]
+}
