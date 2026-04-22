@@ -140,7 +140,7 @@ export default function VendorPage() {
 
       {/* Cart bar */}
       {cartCount > 0 && (
-        <div style={{ position: 'fixed', bottom: 0, left: 0, right: 0, padding: '12px 20px 12px 20px', paddingBottom: 'calc(12px + env(safe-area-inset-bottom, 0px))', background: '#fff', borderTop: '1px solid var(--border)', display: 'flex', gap: 12, alignItems: 'center', zIndex: 200 }}>
+        <div style={{ position: 'flex', bottom: 0, left: 0, right: 0, padding: '12px 20px 12px 20px', paddingBottom: 'calc(12px + env(safe-area-inset-bottom, 0px))', background: '#fff', borderTop: '1px solid var(--border)', display: 'flex', gap: 12, alignItems: 'center', zIndex: 200 }}>
           <button onClick={goToCheckout} className="btn btn-primary btn-full btn-lg" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <span style={{ background: 'rgba(255,255,255,0.3)', borderRadius: 6, padding: '2px 8px', fontSize: 13 }}>{cartCount}</span>
             <span>View cart</span>
