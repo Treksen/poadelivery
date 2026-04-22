@@ -99,7 +99,7 @@ export default function CustomerHome() {
         <div>
           <div style={{ fontSize: 11, color: 'var(--poa-green)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em' }}>Limited offer</div>
           <div style={{ fontSize: 20, fontWeight: 800, color: '#fff', fontFamily: 'var(--font-display)', marginTop: 4 }}>Free delivery on<br />your first order!</div>
-          <button style={{ marginTop: 12, padding: '8px 16px', background: 'var(--poa-green)', color: '#fff', border: 'none', borderRadius: 99, fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>Order now</button>
+          {/* <button href="/customer/orders" style={{ marginTop: 12, padding: '8px 16px', background: 'var(--poa-green)', color: '#fff', border: 'none', borderRadius: 99, fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>Order now</button> */}
         </div>
         <div style={{ fontSize: 56 }}>🍔</div>
       </div>
